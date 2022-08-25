@@ -8,7 +8,7 @@ import {
   orderBy,
   onSnapshot,
 } from "firebase/firestore";
-import { db } from "../../firebase.config";
+import { db } from "../../../firebase.config";
 import styles from "../../../styles/Home.module.css";
 import Image from "next/image";
 import Avatar from "../../../img/avatar.png";

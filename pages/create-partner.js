@@ -1,7 +1,7 @@
 import React from "react";
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { db } from "./firebase.config";
+import { db } from "../firebase.config";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 import { useRouter } from "next/router";
 
