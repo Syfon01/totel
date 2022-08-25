@@ -33,7 +33,7 @@ const PostDetails = () => {
       setLoading(false);
 
     // console.log("details", details);
-  }, [loading]);
+  }, [loading,docRef]);
   return (
     <section className="bg-[#FCFCFF] min-h-screen">
       <main className="container py-10">

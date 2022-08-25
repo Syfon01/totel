@@ -50,7 +50,7 @@ export default function Home() {
                       <div className="px-4 pt-2 bg-[#DFE8FF] rounded-2xl">
                         <div className="flex items-center justify-between text-left">
                           <div className="w-[40%]">
-                            <Image src={hotelImg} />
+                            <Image src={hotelImg} alt=""/>
                           </div>
                           <div className="w-[60%]">
                             <p className="text-xl font-semibold">
@@ -76,7 +76,7 @@ export default function Home() {
                           </div>
 
                           <div className="w-[30%]">
-                            <Image src={partnerImg} />
+                            <Image src={partnerImg} alt=""/>
                           </div>
                         </div>
                       </div>
